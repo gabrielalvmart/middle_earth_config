@@ -1,0 +1,8 @@
+secretGenerator:
+- name: wordpress-mysql-wp1
+  namespace: wordpress-wp1
+  literals:
+  - password=password
+resources:
+- mysql-deployment.yaml
+- wordpress-deployment.yaml
